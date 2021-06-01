@@ -16,9 +16,15 @@
         <div class="product-container">
           <div class="product-image">
             <!-- image goes here -->
+            <img v-bind:src='image'>
           </div>
+
           <div class="product-info">
             <h1>{{ product }}</h1>
+            <!-- How to insert a link in HTML -->
+            <!-- The <a>tag defines a hyperlink -->
+            <a :href='url'>Made by Vue Mastery</a>
+            <href :src = 'url'>
           </div>
         </div>
       </div>
